@@ -1,0 +1,977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F71BE67329B629F70032D21E /* UserDetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71BE67229B629F70032D21E /* UserDetailHeader.swift */; };
+		F71BE67629B6340B0032D21E /* UserDetailBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71BE67529B6340B0032D21E /* UserDetailBody.swift */; };
+		F71BE67829B735EB0032D21E /* RoundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71BE67729B735EB0032D21E /* RoundViews.swift */; };
+		F71BE69929B77A320032D21E /* FilterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71BE69829B77A320032D21E /* FilterUser.swift */; };
+		F72236AF29BF2C6B003FCCD2 /* DeviceDetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72236AE29BF2C6B003FCCD2 /* DeviceDetailHeader.swift */; };
+		F72236B129BF2EFB003FCCD2 /* DeviceDetailBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72236B029BF2EFB003FCCD2 /* DeviceDetailBody.swift */; };
+		F72236B329BF3D27003FCCD2 /* DeviceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72236B229BF3D27003FCCD2 /* DeviceDetail.swift */; };
+		F72236CF29C08730003FCCD2 /* DeleteDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72236CE29C08730003FCCD2 /* DeleteDevice.swift */; };
+		F72236D129C09CBC003FCCD2 /* NewDeviceForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72236D029C09CBC003FCCD2 /* NewDeviceForm.swift */; };
+		F736B35229AE57D900F9A350 /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F736B35129AE57D900F9A350 /* UserDetail.swift */; };
+		F74A59EC29A4DD1500085BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74A59EB29A4DD1500085BAC /* Assets.xcassets */; };
+		F74A59EF29A4DD1500085BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74A59EE29A4DD1500085BAC /* Preview Assets.xcassets */; };
+		F76FBD8829C78B32005FAE00 /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBD8729C78B32005FAE00 /* UserRow.swift */; };
+		F76FBD9729C99FFC005FAE00 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBD9629C99FFC005FAE00 /* Header.swift */; };
+		F76FBD9A29C9AA67005FAE00 /* DeviceLoanHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBD9929C9AA67005FAE00 /* DeviceLoanHome.swift */; };
+		F76FBD9E29C9E674005FAE00 /* DeviceLoanFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBD9D29C9E674005FAE00 /* DeviceLoanFilter.swift */; };
+		F76FBDA029C9F0B5005FAE00 /* DeviceLoanHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBD9F29C9F0B5005FAE00 /* DeviceLoanHeader.swift */; };
+		F76FBDA329CB5372005FAE00 /* DeviceLoanSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBDA229CB5372005FAE00 /* DeviceLoanSelection.swift */; };
+		F76FBDA629CB5425005FAE00 /* UserLoanSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBDA529CB5425005FAE00 /* UserLoanSelection.swift */; };
+		F76FBDA829CB54BC005FAE00 /* CongratsLoan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBDA729CB54BC005FAE00 /* CongratsLoan.swift */; };
+		F76FBDAF29CC5F2D005FAE00 /* UserLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBDAE29CC5F2D005FAE00 /* UserLoanView.swift */; };
+		F76FBDB229CC7F3D005FAE00 /* DeviceReturnHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBDB129CC7F3D005FAE00 /* DeviceReturnHome.swift */; };
+		F76FBDB429CC7F62005FAE00 /* DeviceReturnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBDB329CC7F62005FAE00 /* DeviceReturnView.swift */; };
+		F76FBDB629CC8406005FAE00 /* DeviceReturnSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBDB529CC8406005FAE00 /* DeviceReturnSelection.swift */; };
+		F76FBDB829CC84E9005FAE00 /* CongratsReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76FBDB729CC84E9005FAE00 /* CongratsReturn.swift */; };
+		F77CC99729EE9F8800F917E4 /* DeviceKastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77CC99629EE9F8800F917E4 /* DeviceKastUITests.swift */; };
+		F77CC9A029EE9FA500F917E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F77E70C629AD0EA700298DEC /* GoogleService-Info.plist */; };
+		F77CC9A229EE9FB000F917E4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F77CC9A129EE9FB000F917E4 /* FirebaseAuth */; };
+		F77CC9A429EE9FB700F917E4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F77CC9A329EE9FB700F917E4 /* FirebaseFirestore */; };
+		F77CC9A629EE9FBB00F917E4 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F77CC9A529EE9FBB00F917E4 /* FirebaseDatabaseSwift */; };
+		F77E70C129AD0E5700298DEC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F77E70C029AD0E5700298DEC /* FirebaseAuth */; };
+		F77E70C329AD0E5D00298DEC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F77E70C229AD0E5D00298DEC /* FirebaseFirestore */; };
+		F77E70C729AD0EA800298DEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F77E70C629AD0EA700298DEC /* GoogleService-Info.plist */; };
+		F77E70DB29AD0EDA00298DEC /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E70CD29AD0EDA00298DEC /* AuthenticationService.swift */; };
+		F77E70DC29AD0EDA00298DEC /* LoanHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E70D029AD0EDA00298DEC /* LoanHome.swift */; };
+		F77E70DD29AD0EDA00298DEC /* NewUserForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E70D229AD0EDA00298DEC /* NewUserForm.swift */; };
+		F77E70DE29AD0EDA00298DEC /* Splashscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E70D429AD0EDA00298DEC /* Splashscreen.swift */; };
+		F77E70DF29AD0EDA00298DEC /* DeviceHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E70D629AD0EDA00298DEC /* DeviceHomePage.swift */; };
+		F77E70E029AD0EDA00298DEC /* StatsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E70D829AD0EDA00298DEC /* StatsHome.swift */; };
+		F77E70E729AD0EE400298DEC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E70E329AD0EE300298DEC /* User.swift */; };
+		F77E70E829AD0EE400298DEC /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E70E429AD0EE300298DEC /* Device.swift */; };
+		F77E70ED29AD0FBA00298DEC /* DeviceKastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E70EB29AD0FB900298DEC /* DeviceKastApp.swift */; };
+		F78089C829DC1B3100E1459F /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F78089C729DC1B3100E1459F /* GoogleSignIn */; };
+		F78089DA29DECFBA00E1459F /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F78089D929DECFBA00E1459F /* GoogleSignInSwift */; };
+		F78089DE29DEEFEE00E1459F /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78089DD29DEEFEE00E1459F /* LogIn.swift */; };
+		F78089E029DEF3A200E1459F /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78089DF29DEF3A200E1459F /* AuthenticationViewModel.swift */; };
+		F78089E229DEFB3D00E1459F /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78089E129DEFB3D00E1459F /* HomePage.swift */; };
+		F78089E529DEFD2400E1459F /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78089E429DEFD2400E1459F /* UserProfileView.swift */; };
+		F78089E929E445FF00E1459F /* DeviceLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78089E829E445FF00E1459F /* DeviceLoanView.swift */; };
+		F78EFC5E29ADEDD40051D2EE /* UserHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EFC5D29ADEDD40051D2EE /* UserHomePage.swift */; };
+		F78EFC6129ADF42D0051D2EE /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EFC6029ADF42D0051D2EE /* UserView.swift */; };
+		F78EFC6329ADF9910051D2EE /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EFC6229ADF9910051D2EE /* UserViewModel.swift */; };
+		F78EFC6629AE187A0051D2EE /* UserImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EFC6529AE187A0051D2EE /* UserImage.swift */; };
+		F796AA1A29B8C85C00FD03A1 /* DeleteUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796AA1929B8C85C00FD03A1 /* DeleteUser.swift */; };
+		F796AA1E29B9D97800FD03A1 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796AA1D29B9D97800FD03A1 /* SearchBar.swift */; };
+		F796AA2029BA095800FD03A1 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796AA1F29BA095800FD03A1 /* DeviceViewModel.swift */; };
+		F796AA2329BA166B00FD03A1 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796AA2229BA166B00FD03A1 /* DeviceView.swift */; };
+		F796AA2829BA173000FD03A1 /* FilterDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796AA2729BA173000FD03A1 /* FilterDevice.swift */; };
+		F796AA2A29BA1C2900FD03A1 /* SearchBarDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796AA2929BA1C2900FD03A1 /* SearchBarDevice.swift */; };
+		F796AA2C29BA2DE100FD03A1 /* URLImageDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796AA2B29BA2DE100FD03A1 /* URLImageDevice.swift */; };
+		F797520D29D4728400A42F18 /* DeviceReturnSecureChoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F797520C29D4728400A42F18 /* DeviceReturnSecureChoise.swift */; };
+		F797521E29D597D400A42F18 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F797521D29D597D400A42F18 /* BarView.swift */; };
+		F797522229D5C03900A42F18 /* LoanSecureChoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F797522129D5C03900A42F18 /* LoanSecureChoise.swift */; };
+		F79B1AF529ADEC2E0076490E /* TabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B1AF429ADEC2E0076490E /* TabMenu.swift */; };
+		F7A7966F29B0EBDA00BD672E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A7966E29B0EBDA00BD672E /* ImageLoader.swift */; };
+		F7A7967229B0EDAD00BD672E /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A7967129B0EDAD00BD672E /* URLImage.swift */; };
+		F7C314A129C35C9E0033F3E5 /* DeviceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C314A029C35C9E0033F3E5 /* DeviceRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F77CC99A29EE9F8800F917E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F74A59DC29A4DD1100085BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74A59E329A4DD1100085BAC;
+			remoteInfo = DeviceKast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F71BE67229B629F70032D21E /* UserDetailHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailHeader.swift; sourceTree = "<group>"; };
+		F71BE67529B6340B0032D21E /* UserDetailBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailBody.swift; sourceTree = "<group>"; };
+		F71BE67729B735EB0032D21E /* RoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViews.swift; sourceTree = "<group>"; };
+		F71BE69829B77A320032D21E /* FilterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterUser.swift; sourceTree = "<group>"; };
+		F72236AE29BF2C6B003FCCD2 /* DeviceDetailHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailHeader.swift; sourceTree = "<group>"; };
+		F72236B029BF2EFB003FCCD2 /* DeviceDetailBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailBody.swift; sourceTree = "<group>"; };
+		F72236B229BF3D27003FCCD2 /* DeviceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetail.swift; sourceTree = "<group>"; };
+		F72236CE29C08730003FCCD2 /* DeleteDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDevice.swift; sourceTree = "<group>"; };
+		F72236D029C09CBC003FCCD2 /* NewDeviceForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeviceForm.swift; sourceTree = "<group>"; };
+		F736B35129AE57D900F9A350 /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		F74A59E429A4DD1100085BAC /* DeviceKast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceKast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74A59EB29A4DD1500085BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F74A59EE29A4DD1500085BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F76FBD8729C78B32005FAE00 /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
+		F76FBD9629C99FFC005FAE00 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		F76FBD9929C9AA67005FAE00 /* DeviceLoanHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoanHome.swift; sourceTree = "<group>"; };
+		F76FBD9D29C9E674005FAE00 /* DeviceLoanFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoanFilter.swift; sourceTree = "<group>"; };
+		F76FBD9F29C9F0B5005FAE00 /* DeviceLoanHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoanHeader.swift; sourceTree = "<group>"; };
+		F76FBDA229CB5372005FAE00 /* DeviceLoanSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoanSelection.swift; sourceTree = "<group>"; };
+		F76FBDA529CB5425005FAE00 /* UserLoanSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoanSelection.swift; sourceTree = "<group>"; };
+		F76FBDA729CB54BC005FAE00 /* CongratsLoan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsLoan.swift; sourceTree = "<group>"; };
+		F76FBDAE29CC5F2D005FAE00 /* UserLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoanView.swift; sourceTree = "<group>"; };
+		F76FBDB129CC7F3D005FAE00 /* DeviceReturnHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceReturnHome.swift; sourceTree = "<group>"; };
+		F76FBDB329CC7F62005FAE00 /* DeviceReturnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceReturnView.swift; sourceTree = "<group>"; };
+		F76FBDB529CC8406005FAE00 /* DeviceReturnSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceReturnSelection.swift; sourceTree = "<group>"; };
+		F76FBDB729CC84E9005FAE00 /* CongratsReturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsReturn.swift; sourceTree = "<group>"; };
+		F77CC99429EE9F8800F917E4 /* DeviceKastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceKastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77CC99629EE9F8800F917E4 /* DeviceKastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceKastUITests.swift; sourceTree = "<group>"; };
+		F77E70C629AD0EA700298DEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F77E70CD29AD0EDA00298DEC /* AuthenticationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		F77E70D029AD0EDA00298DEC /* LoanHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanHome.swift; sourceTree = "<group>"; };
+		F77E70D229AD0EDA00298DEC /* NewUserForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserForm.swift; sourceTree = "<group>"; };
+		F77E70D429AD0EDA00298DEC /* Splashscreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Splashscreen.swift; sourceTree = "<group>"; };
+		F77E70D629AD0EDA00298DEC /* DeviceHomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceHomePage.swift; sourceTree = "<group>"; };
+		F77E70D829AD0EDA00298DEC /* StatsHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsHome.swift; sourceTree = "<group>"; };
+		F77E70E329AD0EE300298DEC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F77E70E429AD0EE300298DEC /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		F77E70EB29AD0FB900298DEC /* DeviceKastApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceKastApp.swift; sourceTree = "<group>"; };
+		F78089C329DC15F700E1459F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F78089DD29DEEFEE00E1459F /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		F78089DF29DEF3A200E1459F /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		F78089E129DEFB3D00E1459F /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		F78089E429DEFD2400E1459F /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		F78089E829E445FF00E1459F /* DeviceLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLoanView.swift; sourceTree = "<group>"; };
+		F78EFC5D29ADEDD40051D2EE /* UserHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomePage.swift; sourceTree = "<group>"; };
+		F78EFC6029ADF42D0051D2EE /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		F78EFC6229ADF9910051D2EE /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		F78EFC6529AE187A0051D2EE /* UserImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImage.swift; sourceTree = "<group>"; };
+		F796AA1929B8C85C00FD03A1 /* DeleteUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteUser.swift; sourceTree = "<group>"; };
+		F796AA1D29B9D97800FD03A1 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		F796AA1F29BA095800FD03A1 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		F796AA2229BA166B00FD03A1 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		F796AA2729BA173000FD03A1 /* FilterDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDevice.swift; sourceTree = "<group>"; };
+		F796AA2929BA1C2900FD03A1 /* SearchBarDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarDevice.swift; sourceTree = "<group>"; };
+		F796AA2B29BA2DE100FD03A1 /* URLImageDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageDevice.swift; sourceTree = "<group>"; };
+		F797520C29D4728400A42F18 /* DeviceReturnSecureChoise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceReturnSecureChoise.swift; sourceTree = "<group>"; };
+		F797521D29D597D400A42F18 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		F797522129D5C03900A42F18 /* LoanSecureChoise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanSecureChoise.swift; sourceTree = "<group>"; };
+		F79B1AF429ADEC2E0076490E /* TabMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenu.swift; sourceTree = "<group>"; };
+		F7A7966E29B0EBDA00BD672E /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		F7A7967129B0EDAD00BD672E /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		F7C314A029C35C9E0033F3E5 /* DeviceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F74A59E129A4DD1100085BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77E70C129AD0E5700298DEC /* FirebaseAuth in Frameworks */,
+				F77E70C329AD0E5D00298DEC /* FirebaseFirestore in Frameworks */,
+				F78089C829DC1B3100E1459F /* GoogleSignIn in Frameworks */,
+				F78089DA29DECFBA00E1459F /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77CC99129EE9F8800F917E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77CC9A629EE9FBB00F917E4 /* FirebaseDatabaseSwift in Frameworks */,
+				F77CC9A229EE9FB000F917E4 /* FirebaseAuth in Frameworks */,
+				F77CC9A429EE9FB700F917E4 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F71BE67429B62F7F0032D21E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F736B35129AE57D900F9A350 /* UserDetail.swift */,
+				F71BE67229B629F70032D21E /* UserDetailHeader.swift */,
+				F78EFC6529AE187A0051D2EE /* UserImage.swift */,
+				F71BE67529B6340B0032D21E /* UserDetailBody.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F71BE69629B779780032D21E /* AddUser */ = {
+			isa = PBXGroup;
+			children = (
+				F77E70D229AD0EDA00298DEC /* NewUserForm.swift */,
+			);
+			path = AddUser;
+			sourceTree = "<group>";
+		};
+		F72236AD29BF2C39003FCCD2 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F72236B229BF3D27003FCCD2 /* DeviceDetail.swift */,
+				F72236AE29BF2C6B003FCCD2 /* DeviceDetailHeader.swift */,
+				F72236B029BF2EFB003FCCD2 /* DeviceDetailBody.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F72236CC29C08560003FCCD2 /* AddDevice */ = {
+			isa = PBXGroup;
+			children = (
+				F72236D029C09CBC003FCCD2 /* NewDeviceForm.swift */,
+			);
+			path = AddDevice;
+			sourceTree = "<group>";
+		};
+		F72236CD29C08570003FCCD2 /* DeleteDevice */ = {
+			isa = PBXGroup;
+			children = (
+				F72236CE29C08730003FCCD2 /* DeleteDevice.swift */,
+			);
+			path = DeleteDevice;
+			sourceTree = "<group>";
+		};
+		F74A59DB29A4DD1100085BAC = {
+			isa = PBXGroup;
+			children = (
+				F74A59E629A4DD1100085BAC /* DeviceKast */,
+				F77CC99529EE9F8800F917E4 /* DeviceKastUITests */,
+				F74A59E529A4DD1100085BAC /* Products */,
+				F77E70BF29AD0E3F00298DEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F74A59E529A4DD1100085BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F74A59E429A4DD1100085BAC /* DeviceKast.app */,
+				F77CC99429EE9F8800F917E4 /* DeviceKastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F74A59E629A4DD1100085BAC /* DeviceKast */ = {
+			isa = PBXGroup;
+			children = (
+				F78089C329DC15F700E1459F /* Info.plist */,
+				F77E70EB29AD0FB900298DEC /* DeviceKastApp.swift */,
+				F78089E129DEFB3D00E1459F /* HomePage.swift */,
+				F77E70CE29AD0EDA00298DEC /* View */,
+				F77E70D929AD0EDA00298DEC /* ViewModels */,
+				F77E70E229AD0EE300298DEC /* Modal */,
+				F77E70CC29AD0EDA00298DEC /* Services */,
+				F74A59EB29A4DD1500085BAC /* Assets.xcassets */,
+				F74A59ED29A4DD1500085BAC /* Preview Content */,
+				F77E70C629AD0EA700298DEC /* GoogleService-Info.plist */,
+			);
+			path = DeviceKast;
+			sourceTree = "<group>";
+		};
+		F74A59ED29A4DD1500085BAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F74A59EE29A4DD1500085BAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F76FBD9829C9AA4B005FAE00 /* DeviceLoan */ = {
+			isa = PBXGroup;
+			children = (
+				F76FBDA129CB5361005FAE00 /* Device */,
+				F76FBDA429CB5417005FAE00 /* User */,
+				F797522129D5C03900A42F18 /* LoanSecureChoise.swift */,
+				F76FBDA729CB54BC005FAE00 /* CongratsLoan.swift */,
+			);
+			path = DeviceLoan;
+			sourceTree = "<group>";
+		};
+		F76FBDA129CB5361005FAE00 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				F76FBD9929C9AA67005FAE00 /* DeviceLoanHome.swift */,
+				F76FBDA229CB5372005FAE00 /* DeviceLoanSelection.swift */,
+				F78089E829E445FF00E1459F /* DeviceLoanView.swift */,
+				F76FBD9F29C9F0B5005FAE00 /* DeviceLoanHeader.swift */,
+				F76FBD9D29C9E674005FAE00 /* DeviceLoanFilter.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		F76FBDA429CB5417005FAE00 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				F76FBDA529CB5425005FAE00 /* UserLoanSelection.swift */,
+				F76FBDAE29CC5F2D005FAE00 /* UserLoanView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		F76FBDB029CC7F05005FAE00 /* DeviceReturn */ = {
+			isa = PBXGroup;
+			children = (
+				F76FBDB129CC7F3D005FAE00 /* DeviceReturnHome.swift */,
+				F76FBDB529CC8406005FAE00 /* DeviceReturnSelection.swift */,
+				F76FBDB329CC7F62005FAE00 /* DeviceReturnView.swift */,
+				F797520C29D4728400A42F18 /* DeviceReturnSecureChoise.swift */,
+				F76FBDB729CC84E9005FAE00 /* CongratsReturn.swift */,
+			);
+			path = DeviceReturn;
+			sourceTree = "<group>";
+		};
+		F77CC99529EE9F8800F917E4 /* DeviceKastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F77CC99629EE9F8800F917E4 /* DeviceKastUITests.swift */,
+			);
+			path = DeviceKastUITests;
+			sourceTree = "<group>";
+		};
+		F77E70BF29AD0E3F00298DEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F77E70CC29AD0EDA00298DEC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F77E70CD29AD0EDA00298DEC /* AuthenticationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F77E70CE29AD0EDA00298DEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F77E70D129AD0EDA00298DEC /* User */,
+				F77E70D529AD0EDA00298DEC /* Device */,
+				F77E70D729AD0EDA00298DEC /* Stats */,
+				F77E70CF29AD0EDA00298DEC /* Loan */,
+				F79B1AF329ADEC1D0076490E /* Tab */,
+				F78089E329DEFCF200E1459F /* LogIn */,
+				F77E70D329AD0EDA00298DEC /* Splashscreen */,
+				F78EFC6429AE18510051D2EE /* Helpers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F77E70CF29AD0EDA00298DEC /* Loan */ = {
+			isa = PBXGroup;
+			children = (
+				F77E70D029AD0EDA00298DEC /* LoanHome.swift */,
+				F76FBD9829C9AA4B005FAE00 /* DeviceLoan */,
+				F76FBDB029CC7F05005FAE00 /* DeviceReturn */,
+			);
+			path = Loan;
+			sourceTree = "<group>";
+		};
+		F77E70D129AD0EDA00298DEC /* User */ = {
+			isa = PBXGroup;
+			children = (
+				F796AA1B29B9D5A300FD03A1 /* HomePage */,
+				F71BE67429B62F7F0032D21E /* Detail */,
+				F796AA1829B8C84A00FD03A1 /* DeleteUser */,
+				F71BE69629B779780032D21E /* AddUser */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		F77E70D329AD0EDA00298DEC /* Splashscreen */ = {
+			isa = PBXGroup;
+			children = (
+				F77E70D429AD0EDA00298DEC /* Splashscreen.swift */,
+			);
+			path = Splashscreen;
+			sourceTree = "<group>";
+		};
+		F77E70D529AD0EDA00298DEC /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				F796AA2129BA165000FD03A1 /* DeviceHome */,
+				F72236AD29BF2C39003FCCD2 /* Detail */,
+				F72236CC29C08560003FCCD2 /* AddDevice */,
+				F72236CD29C08570003FCCD2 /* DeleteDevice */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		F77E70D729AD0EDA00298DEC /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				F77E70D829AD0EDA00298DEC /* StatsHome.swift */,
+				F7C314A029C35C9E0033F3E5 /* DeviceRow.swift */,
+				F76FBD8729C78B32005FAE00 /* UserRow.swift */,
+				F797521D29D597D400A42F18 /* BarView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		F77E70D929AD0EDA00298DEC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F796AA1F29BA095800FD03A1 /* DeviceViewModel.swift */,
+				F78EFC6229ADF9910051D2EE /* UserViewModel.swift */,
+				F7A7966E29B0EBDA00BD672E /* ImageLoader.swift */,
+				F78089DF29DEF3A200E1459F /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F77E70E229AD0EE300298DEC /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				F77E70E329AD0EE300298DEC /* User.swift */,
+				F77E70E429AD0EE300298DEC /* Device.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		F78089E329DEFCF200E1459F /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				F78089DD29DEEFEE00E1459F /* LogIn.swift */,
+				F78089E429DEFD2400E1459F /* UserProfileView.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		F78EFC6429AE18510051D2EE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F71BE67729B735EB0032D21E /* RoundViews.swift */,
+				F7A7967129B0EDAD00BD672E /* URLImage.swift */,
+				F796AA2B29BA2DE100FD03A1 /* URLImageDevice.swift */,
+				F76FBD9629C99FFC005FAE00 /* Header.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F796AA1829B8C84A00FD03A1 /* DeleteUser */ = {
+			isa = PBXGroup;
+			children = (
+				F796AA1929B8C85C00FD03A1 /* DeleteUser.swift */,
+			);
+			path = DeleteUser;
+			sourceTree = "<group>";
+		};
+		F796AA1B29B9D5A300FD03A1 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				F78EFC5D29ADEDD40051D2EE /* UserHomePage.swift */,
+				F78EFC6029ADF42D0051D2EE /* UserView.swift */,
+				F796AA1D29B9D97800FD03A1 /* SearchBar.swift */,
+				F71BE69829B77A320032D21E /* FilterUser.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		F796AA2129BA165000FD03A1 /* DeviceHome */ = {
+			isa = PBXGroup;
+			children = (
+				F77E70D629AD0EDA00298DEC /* DeviceHomePage.swift */,
+				F796AA2229BA166B00FD03A1 /* DeviceView.swift */,
+				F796AA2929BA1C2900FD03A1 /* SearchBarDevice.swift */,
+				F796AA2729BA173000FD03A1 /* FilterDevice.swift */,
+			);
+			path = DeviceHome;
+			sourceTree = "<group>";
+		};
+		F79B1AF329ADEC1D0076490E /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				F79B1AF429ADEC2E0076490E /* TabMenu.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F74A59E329A4DD1100085BAC /* DeviceKast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74A59F229A4DD1500085BAC /* Build configuration list for PBXNativeTarget "DeviceKast" */;
+			buildPhases = (
+				F74A59E029A4DD1100085BAC /* Sources */,
+				F74A59E129A4DD1100085BAC /* Frameworks */,
+				F74A59E229A4DD1100085BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceKast;
+			packageProductDependencies = (
+				F77E70C029AD0E5700298DEC /* FirebaseAuth */,
+				F77E70C229AD0E5D00298DEC /* FirebaseFirestore */,
+				F78089C729DC1B3100E1459F /* GoogleSignIn */,
+				F78089D929DECFBA00E1459F /* GoogleSignInSwift */,
+			);
+			productName = DeviceKast;
+			productReference = F74A59E429A4DD1100085BAC /* DeviceKast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F77CC99329EE9F8800F917E4 /* DeviceKastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77CC99C29EE9F8800F917E4 /* Build configuration list for PBXNativeTarget "DeviceKastUITests" */;
+			buildPhases = (
+				F77CC99029EE9F8800F917E4 /* Sources */,
+				F77CC99129EE9F8800F917E4 /* Frameworks */,
+				F77CC99229EE9F8800F917E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77CC99B29EE9F8800F917E4 /* PBXTargetDependency */,
+			);
+			name = DeviceKastUITests;
+			packageProductDependencies = (
+				F77CC9A129EE9FB000F917E4 /* FirebaseAuth */,
+				F77CC9A329EE9FB700F917E4 /* FirebaseFirestore */,
+				F77CC9A529EE9FBB00F917E4 /* FirebaseDatabaseSwift */,
+			);
+			productName = DeviceKastUITests;
+			productReference = F77CC99429EE9F8800F917E4 /* DeviceKastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F74A59DC29A4DD1100085BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F74A59E329A4DD1100085BAC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F77CC99329EE9F8800F917E4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F74A59E329A4DD1100085BAC;
+					};
+				};
+			};
+			buildConfigurationList = F74A59DF29A4DD1100085BAC /* Build configuration list for PBXProject "DeviceKast" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F74A59DB29A4DD1100085BAC;
+			packageReferences = (
+				F7BA370329A66736009100FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F78089C429DC173A00E1459F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = F74A59E529A4DD1100085BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F74A59E329A4DD1100085BAC /* DeviceKast */,
+				F77CC99329EE9F8800F917E4 /* DeviceKastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F74A59E229A4DD1100085BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74A59EF29A4DD1500085BAC /* Preview Assets.xcassets in Resources */,
+				F74A59EC29A4DD1500085BAC /* Assets.xcassets in Resources */,
+				F77E70C729AD0EA800298DEC /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77CC99229EE9F8800F917E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77CC9A029EE9FA500F917E4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F74A59E029A4DD1100085BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78089E029DEF3A200E1459F /* AuthenticationViewModel.swift in Sources */,
+				F78089E529DEFD2400E1459F /* UserProfileView.swift in Sources */,
+				F796AA2329BA166B00FD03A1 /* DeviceView.swift in Sources */,
+				F77E70E829AD0EE400298DEC /* Device.swift in Sources */,
+				F76FBDB229CC7F3D005FAE00 /* DeviceReturnHome.swift in Sources */,
+				F796AA2A29BA1C2900FD03A1 /* SearchBarDevice.swift in Sources */,
+				F76FBDB629CC8406005FAE00 /* DeviceReturnSelection.swift in Sources */,
+				F77E70ED29AD0FBA00298DEC /* DeviceKastApp.swift in Sources */,
+				F77E70DC29AD0EDA00298DEC /* LoanHome.swift in Sources */,
+				F797522229D5C03900A42F18 /* LoanSecureChoise.swift in Sources */,
+				F76FBDAF29CC5F2D005FAE00 /* UserLoanView.swift in Sources */,
+				F71BE67629B6340B0032D21E /* UserDetailBody.swift in Sources */,
+				F796AA1E29B9D97800FD03A1 /* SearchBar.swift in Sources */,
+				F71BE67329B629F70032D21E /* UserDetailHeader.swift in Sources */,
+				F78EFC5E29ADEDD40051D2EE /* UserHomePage.swift in Sources */,
+				F77E70DB29AD0EDA00298DEC /* AuthenticationService.swift in Sources */,
+				F76FBDB429CC7F62005FAE00 /* DeviceReturnView.swift in Sources */,
+				F78EFC6129ADF42D0051D2EE /* UserView.swift in Sources */,
+				F72236B129BF2EFB003FCCD2 /* DeviceDetailBody.swift in Sources */,
+				F78089E229DEFB3D00E1459F /* HomePage.swift in Sources */,
+				F71BE67829B735EB0032D21E /* RoundViews.swift in Sources */,
+				F76FBDA829CB54BC005FAE00 /* CongratsLoan.swift in Sources */,
+				F72236AF29BF2C6B003FCCD2 /* DeviceDetailHeader.swift in Sources */,
+				F79B1AF529ADEC2E0076490E /* TabMenu.swift in Sources */,
+				F72236B329BF3D27003FCCD2 /* DeviceDetail.swift in Sources */,
+				F78EFC6329ADF9910051D2EE /* UserViewModel.swift in Sources */,
+				F76FBDA029C9F0B5005FAE00 /* DeviceLoanHeader.swift in Sources */,
+				F77E70E029AD0EDA00298DEC /* StatsHome.swift in Sources */,
+				F76FBD8829C78B32005FAE00 /* UserRow.swift in Sources */,
+				F7C314A129C35C9E0033F3E5 /* DeviceRow.swift in Sources */,
+				F796AA2829BA173000FD03A1 /* FilterDevice.swift in Sources */,
+				F77E70DD29AD0EDA00298DEC /* NewUserForm.swift in Sources */,
+				F797521E29D597D400A42F18 /* BarView.swift in Sources */,
+				F77E70DF29AD0EDA00298DEC /* DeviceHomePage.swift in Sources */,
+				F77E70DE29AD0EDA00298DEC /* Splashscreen.swift in Sources */,
+				F76FBD9A29C9AA67005FAE00 /* DeviceLoanHome.swift in Sources */,
+				F796AA2C29BA2DE100FD03A1 /* URLImageDevice.swift in Sources */,
+				F736B35229AE57D900F9A350 /* UserDetail.swift in Sources */,
+				F796AA2029BA095800FD03A1 /* DeviceViewModel.swift in Sources */,
+				F76FBDA329CB5372005FAE00 /* DeviceLoanSelection.swift in Sources */,
+				F7A7966F29B0EBDA00BD672E /* ImageLoader.swift in Sources */,
+				F78089E929E445FF00E1459F /* DeviceLoanView.swift in Sources */,
+				F76FBD9E29C9E674005FAE00 /* DeviceLoanFilter.swift in Sources */,
+				F797520D29D4728400A42F18 /* DeviceReturnSecureChoise.swift in Sources */,
+				F78089DE29DEEFEE00E1459F /* LogIn.swift in Sources */,
+				F76FBD9729C99FFC005FAE00 /* Header.swift in Sources */,
+				F77E70E729AD0EE400298DEC /* User.swift in Sources */,
+				F71BE69929B77A320032D21E /* FilterUser.swift in Sources */,
+				F796AA1A29B8C85C00FD03A1 /* DeleteUser.swift in Sources */,
+				F76FBDB829CC84E9005FAE00 /* CongratsReturn.swift in Sources */,
+				F72236D129C09CBC003FCCD2 /* NewDeviceForm.swift in Sources */,
+				F78EFC6629AE187A0051D2EE /* UserImage.swift in Sources */,
+				F72236CF29C08730003FCCD2 /* DeleteDevice.swift in Sources */,
+				F7A7967229B0EDAD00BD672E /* URLImage.swift in Sources */,
+				F76FBDA629CB5425005FAE00 /* UserLoanSelection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77CC99029EE9F8800F917E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77CC99729EE9F8800F917E4 /* DeviceKastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F77CC99B29EE9F8800F917E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74A59E329A4DD1100085BAC /* DeviceKast */;
+			targetProxy = F77CC99A29EE9F8800F917E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F74A59F029A4DD1500085BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F74A59F129A4DD1500085BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74A59F329A4DD1500085BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeviceKast/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z7FVXBPH2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeviceKast/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Device Kast";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = burak.ocbe.DeviceKast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F74A59F429A4DD1500085BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeviceKast/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z7FVXBPH2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeviceKast/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Device Kast";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = burak.ocbe.DeviceKast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F77CC99D29EE9F8800F917E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z7FVXBPH2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = burak.ocbe.DeviceKastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeviceKast;
+			};
+			name = Debug;
+		};
+		F77CC99E29EE9F8800F917E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z7FVXBPH2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = burak.ocbe.DeviceKastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeviceKast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F74A59DF29A4DD1100085BAC /* Build configuration list for PBXProject "DeviceKast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74A59F029A4DD1500085BAC /* Debug */,
+				F74A59F129A4DD1500085BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74A59F229A4DD1500085BAC /* Build configuration list for PBXNativeTarget "DeviceKast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74A59F329A4DD1500085BAC /* Debug */,
+				F74A59F429A4DD1500085BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77CC99C29EE9F8800F917E4 /* Build configuration list for PBXNativeTarget "DeviceKastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77CC99D29EE9F8800F917E4 /* Debug */,
+				F77CC99E29EE9F8800F917E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F78089C429DC173A00E1459F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		F7BA370329A66736009100FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F77CC9A129EE9FB000F917E4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7BA370329A66736009100FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F77CC9A329EE9FB700F917E4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7BA370329A66736009100FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F77CC9A529EE9FBB00F917E4 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7BA370329A66736009100FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		F77E70C029AD0E5700298DEC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7BA370329A66736009100FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F77E70C229AD0E5D00298DEC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7BA370329A66736009100FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F78089C729DC1B3100E1459F /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F78089C429DC173A00E1459F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		F78089D929DECFBA00E1459F /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F78089C429DC173A00E1459F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F74A59DC29A4DD1100085BAC /* Project object */;
+}

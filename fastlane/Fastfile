@@ -1,0 +1,7 @@
+# This lane is used for checking if your pull request's code is according to our
+# coding guidelines and that the application's tests run.
+lane :pr do
+  slack_room = '#device_kast_burak_ios_pr'
+  # Check the coding guidelines.
+  check_code_style
+end
